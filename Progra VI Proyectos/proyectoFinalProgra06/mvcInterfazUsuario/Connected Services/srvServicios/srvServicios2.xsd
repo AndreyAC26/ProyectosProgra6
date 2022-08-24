@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Entidades" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Entidades" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfServicios">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Servicios" nillable="true" type="tns:Servicios" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfServicios" nillable="true" type="tns:ArrayOfServicios" />
+  <xs:complexType name="Servicios">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Facturacion" nillable="true" type="tns:ArrayOfFacturacion" />
+      <xs:element minOccurs="0" name="IDCliente" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="IDServicio" type="xs:int" />
+      <xs:element minOccurs="0" name="NombreCliente" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NombreMascota" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NumeroCita" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Servicios" nillable="true" type="tns:Servicios" />
+  <xs:complexType name="ArrayOfFacturacion">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Facturacion" nillable="true" type="tns:Facturacion" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFacturacion" nillable="true" type="tns:ArrayOfFacturacion" />
+  <xs:complexType name="Facturacion">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FechaCita" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="IdServicio" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="NombreCliente" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NombreMascota" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NumeroCita" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="NumeroFactura" type="xs:int" />
+      <xs:element minOccurs="0" name="Servicios" nillable="true" type="tns:Servicios" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Facturacion" nillable="true" type="tns:Facturacion" />
+</xs:schema>

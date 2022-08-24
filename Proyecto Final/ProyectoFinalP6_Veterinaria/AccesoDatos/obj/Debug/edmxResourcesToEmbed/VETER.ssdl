@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="veterinariaBDModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Citas">
+    <Key>
+      <PropertyRef Name="NumeroCita" />
+    </Key>
+    <Property Name="NumeroCita" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDCliente" Type="int" />
+    <Property Name="IDMascota" Type="int" />
+    <Property Name="FechaCita" Type="date" />
+  </EntityType>
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="IDCliente" />
+    </Key>
+    <Property Name="IDCliente" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="12" />
+    <Property Name="PrimerApellido" Type="varchar" MaxLength="12" />
+    <Property Name="SegundoApellido" Type="varchar" MaxLength="12" />
+    <Property Name="Telefono" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="CorreoElectronico" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Diagnósticos">
+    <Key>
+      <PropertyRef Name="IDDiagnostico" />
+    </Key>
+    <Property Name="IDDiagnostico" Type="int" Nullable="false" />
+    <Property Name="DescripcionDiagnostico" Type="varchar" MaxLength="100" />
+    <Property Name="NumeroCita" Type="int" />
+  </EntityType>
+  <EntityType Name="Facturacion">
+    <Key>
+      <PropertyRef Name="NumeroFactura" />
+    </Key>
+    <Property Name="NumeroFactura" Type="int" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="100" />
+    <Property Name="NumeroCita" Type="int" />
+    <Property Name="NombreCliente" Type="varchar" MaxLength="12" />
+    <Property Name="NombreMascota" Type="varchar" MaxLength="12" />
+    <Property Name="FechaCita" Type="date" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6013: La tabla o vista 'veterinariaBD.dbo.Login' no tiene definida una clave principal y no es posible inferir ninguna clave principal válida. Esta tabla o vista se ha excluido. Para usar la entidad, necesitará revisar el esquema, agregar las claves correctas y quitar sus comentarios.
+        <EntityType Name="Login">
+          <Property Name="NombreUsuario" Type="varchar" MaxLength="12" />
+          <Property Name="Contraseña" Type="varchar" MaxLength="18" />
+        </EntityType>-->
+  <EntityType Name="Mascotas">
+    <Key>
+      <PropertyRef Name="IDMascota" />
+    </Key>
+    <Property Name="IDMascota" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="12" />
+    <Property Name="IdCliente" Type="int" />
+  </EntityType>
+  <EntityContainer Name="veterinariaBDModelStoreContainer">
+    <EntitySet Name="Citas" EntityType="Self.Citas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Diagnósticos" EntityType="Self.Diagnósticos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Facturacion" EntityType="Self.Facturacion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Mascotas" EntityType="Self.Mascotas" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

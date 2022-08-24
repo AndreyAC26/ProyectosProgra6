@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:61252/srvCitas.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Entidades" />
+  <xs:element name="recCitas_ENT">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="recCitas_ENTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Entidades" minOccurs="0" name="recCitas_ENTResult" nillable="true" type="q1:ArrayOfCitas" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="recCitasXId_ENT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="recCitasXId_ENTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Entidades" minOccurs="0" name="recCitasXId_ENTResult" nillable="true" type="q2:Citas" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="insCitas_ENT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Entidades" minOccurs="0" name="pCitas" nillable="true" type="q3:Citas" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="insCitas_ENTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="insCitas_ENTResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="modCitas_ENT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Entidades" minOccurs="0" name="pCitas" nillable="true" type="q4:Citas" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="modCitas_ENTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="modCitas_ENTResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="delCitas_ENT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Entidades" minOccurs="0" name="pCitas" nillable="true" type="q5:Citas" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="delCitas_ENTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="delCitas_ENTResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

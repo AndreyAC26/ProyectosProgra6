@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2e1c3c50815b419ba3a25e1947b1bf0d" Name="Diagram1">
+        <EntityTypeShape EntityType="VeterinariaModelo.Citas" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinariaModelo.Clientes" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinariaModelo.Diagnósticos" Width="1.5" PointX="2.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinariaModelo.Facturacion" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinariaModelo.Mascotas" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinariaModelo.Servicios" Width="1.5" PointX="5.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinariaModelo.sysdiagrams" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinariaModelo.TUSR_PERFILES" Width="1.5" PointX="2.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinariaModelo.TUSR_USUARIOS" Width="1.5" PointX="5" PointY="4.875" IsExpanded="true" />
+        <AssociationConnector Association="VeterinariaModelo.FK_Citas_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="VeterinariaModelo.FK_Citas_Mascotas" ManuallyRouted="false" />
+        <AssociationConnector Association="VeterinariaModelo.FK_Facturacion_Servicios" ManuallyRouted="false" />
+        <AssociationConnector Association="VeterinariaModelo.YUSR_PERFILESXUSUARIO" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

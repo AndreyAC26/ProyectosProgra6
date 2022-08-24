@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SEGModeloStoreContainer" CdmEntityContainer="SEGEntidades">
+    <EntitySetMapping Name="TUSR_PERFILES">
+      <EntityTypeMapping TypeName="SEGModelo.TUSR_PERFILES">
+        <MappingFragment StoreEntitySet="TUSR_PERFILES">
+          <ScalarProperty Name="TN_Perfil" ColumnName="TN_Perfil" />
+          <ScalarProperty Name="TC_NomPerfil" ColumnName="TC_NomPerfil" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TUSR_USUARIOS">
+      <EntityTypeMapping TypeName="SEGModelo.TUSR_USUARIOS">
+        <MappingFragment StoreEntitySet="TUSR_USUARIOS">
+          <ScalarProperty Name="TC_Usuario" ColumnName="TC_Usuario" />
+          <ScalarProperty Name="TC_Contrasena" ColumnName="TC_Contrasena" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="YUSR_PERFILESXUSUARIO" TypeName="SEGModelo.YUSR_PERFILESXUSUARIO" StoreEntitySet="YUSR_PERFILESXUSUARIO">
+      <EndProperty Name="TUSR_PERFILES">
+        <ScalarProperty Name="TN_Perfil" ColumnName="TN_Perfil" />
+      </EndProperty>
+      <EndProperty Name="TUSR_USUARIOS">
+        <ScalarProperty Name="TC_Usuario" ColumnName="TC_Usuario" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

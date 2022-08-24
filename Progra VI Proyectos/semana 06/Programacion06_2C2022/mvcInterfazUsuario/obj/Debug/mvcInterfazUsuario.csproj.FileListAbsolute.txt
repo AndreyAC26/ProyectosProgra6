@@ -1,0 +1,267 @@
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\mvcInterfazUsuario.dll.config
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\mvcInterfazUsuario.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\mvcInterfazUsuario.pdb
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\csc.exe
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\csc.exe.config
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\csc.rsp
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\csi.exe
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\csi.exe.config
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\csi.rsp
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.CodeAnalysis.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.CSharp.Core.targets
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.Managed.Core.targets
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.VisualBasic.Core.targets
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.Win32.Primitives.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.AppContext.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Collections.Immutable.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Console.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Diagnostics.StackTrace.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Globalization.Calendars.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.IO.Compression.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.IO.Compression.ZipFile.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.IO.FileSystem.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.IO.FileSystem.Primitives.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Net.Http.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Net.Sockets.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Reflection.Metadata.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Security.Cryptography.Encoding.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Security.Cryptography.Primitives.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Text.Encoding.CodePages.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Threading.Tasks.Extensions.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.ValueTuple.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Xml.ReaderWriter.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Xml.XmlDocument.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Xml.XPath.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Xml.XPath.XDocument.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\vbc.exe
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\vbc.exe.config
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\vbc.rsp
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\VBCSCompiler.exe
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\VBCSCompiler.exe.config
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\Antlr3.Runtime.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\Microsoft.Web.Infrastructure.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\Newtonsoft.Json.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Helpers.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Mvc.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Optimization.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Razor.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.WebPages.Deployment.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.WebPages.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.WebPages.Razor.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\WebGrease.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Helpers.xml
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Mvc.xml
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Optimization.xml
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Razor.xml
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.WebPages.xml
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.WebPages.Deployment.xml
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.WebPages.Razor.xml
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\Newtonsoft.Json.xml
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\Antlr3.Runtime.pdb
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.Helpers.resources.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.Mvc.resources.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.Optimization.resources.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.Razor.resources.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.WebPages.resources.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.WebPages.Deployment.resources.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.WebPages.Razor.resources.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\obj\Debug\mvcInterfazUsuario.csproj.AssemblyReference.cache
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\obj\Debug\mvcInterfazUsuario.csproj.CoreCompileInputs.cache
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\obj\Debug\mvcInterfazUsuario.csproj.CopyComplete
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\obj\Debug\mvcInterfazUsuario.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\obj\Debug\mvcInterfazUsuario.pdb
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\Entidades.dll
+S:\UTC\Programación VI\S05\Programacion06_2C2022\mvcInterfazUsuario\bin\Entidades.pdb
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\mvcInterfazUsuario.dll.config
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\mvcInterfazUsuario.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\mvcInterfazUsuario.pdb
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\csc.exe
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\csc.exe.config
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\csc.rsp
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\csi.exe
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\csi.exe.config
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\csi.rsp
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.CodeAnalysis.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.CSharp.Core.targets
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.Managed.Core.targets
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.VisualBasic.Core.targets
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.Win32.Primitives.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.AppContext.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Collections.Immutable.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Console.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Diagnostics.StackTrace.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Globalization.Calendars.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.IO.Compression.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.IO.Compression.ZipFile.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.IO.FileSystem.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.IO.FileSystem.Primitives.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Net.Http.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Net.Sockets.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Reflection.Metadata.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Security.Cryptography.Encoding.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Security.Cryptography.Primitives.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Text.Encoding.CodePages.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Threading.Tasks.Extensions.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.ValueTuple.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Xml.ReaderWriter.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Xml.XmlDocument.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Xml.XPath.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Xml.XPath.XDocument.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\vbc.exe
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\vbc.exe.config
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\vbc.rsp
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\VBCSCompiler.exe
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\VBCSCompiler.exe.config
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\Antlr3.Runtime.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\Entidades.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\Microsoft.Web.Infrastructure.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\Newtonsoft.Json.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Helpers.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Mvc.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Optimization.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Razor.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.WebPages.Deployment.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.WebPages.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.WebPages.Razor.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\WebGrease.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\Entidades.pdb
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Helpers.xml
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Mvc.xml
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Optimization.xml
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Razor.xml
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.WebPages.xml
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.WebPages.Deployment.xml
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.WebPages.Razor.xml
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\Newtonsoft.Json.xml
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\Antlr3.Runtime.pdb
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.Helpers.resources.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.Mvc.resources.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.Optimization.resources.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.Razor.resources.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.WebPages.resources.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.WebPages.Deployment.resources.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.WebPages.Razor.resources.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\obj\Debug\mvcInterfazUsuario.csproj.AssemblyReference.cache
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\obj\Debug\mvcInterfazUsuario.csproj.CoreCompileInputs.cache
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\obj\Debug\mvcInterfazUsuario.csproj.CopyComplete
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\obj\Debug\mvcInterfazUsuario.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\mvcInterfazUsuario\obj\Debug\mvcInterfazUsuario.pdb
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\mvcInterfazUsuario.dll.config
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\mvcInterfazUsuario.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\mvcInterfazUsuario.pdb
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\csc.exe
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\csc.exe.config
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\csc.rsp
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\csi.exe
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\csi.exe.config
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\csi.rsp
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.AppContext.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Collections.Immutable.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Console.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Globalization.Calendars.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.IO.Compression.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.IO.FileSystem.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Net.Http.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Net.Sockets.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Reflection.Metadata.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.ValueTuple.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Xml.XPath.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\vbc.exe
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\vbc.exe.config
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\vbc.rsp
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\VBCSCompiler.exe
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\roslyn\VBCSCompiler.exe.config
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\Antlr3.Runtime.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\Entidades.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\Microsoft.Web.Infrastructure.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\Newtonsoft.Json.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Helpers.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Mvc.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Optimization.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Razor.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.WebPages.Deployment.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.WebPages.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.WebPages.Razor.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\WebGrease.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\Entidades.pdb
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Helpers.xml
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Mvc.xml
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Optimization.xml
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.Razor.xml
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.WebPages.xml
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.WebPages.Deployment.xml
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\System.Web.WebPages.Razor.xml
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\Newtonsoft.Json.xml
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\Antlr3.Runtime.pdb
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.Helpers.resources.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.Mvc.resources.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.Optimization.resources.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.Razor.resources.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.WebPages.resources.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\obj\Debug\mvcInterfazUsuario.csproj.AssemblyReference.cache
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\obj\Debug\mvcInterfazUsuario.csproj.CoreCompileInputs.cache
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\obj\Debug\mvcInterfazUsuario.csproj.CopyComplete
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\obj\Debug\mvcInterfazUsuario.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\obj\Debug\mvcInterfazUsuario.pdb
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\NLog.config
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\NLog.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\mvcInterfazUsuario\bin\NLog.xml

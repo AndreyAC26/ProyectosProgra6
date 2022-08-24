@@ -1,0 +1,17 @@
+C:\Progra VI\ProyectoFinalP6_Veterinaria\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+C:\Progra VI\ProyectoFinalP6_Veterinaria\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+C:\Progra VI\ProyectoFinalP6_Veterinaria\LogicaNegocio\bin\Debug\AccesoDatos.dll
+C:\Progra VI\ProyectoFinalP6_Veterinaria\LogicaNegocio\bin\Debug\Entidades.dll
+C:\Progra VI\ProyectoFinalP6_Veterinaria\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+C:\Progra VI\ProyectoFinalP6_Veterinaria\LogicaNegocio\bin\Debug\Entidades.pdb
+C:\Progra VI\ProyectoFinalP6_Veterinaria\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Progra VI\ProyectoFinalP6_Veterinaria\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Progra VI\ProyectoFinalP6_Veterinaria\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CopyComplete
+C:\Progra VI\ProyectoFinalP6_Veterinaria\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+C:\Progra VI\ProyectoFinalP6_Veterinaria\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+C:\Progra VI\ProyectoFinalP6_Veterinaria\LogicaNegocio\bin\Debug\EntityFramework.dll
+C:\Progra VI\ProyectoFinalP6_Veterinaria\LogicaNegocio\bin\Debug\AccesoDatos.dll.config
+C:\Progra VI\ProyectoFinalP6_Veterinaria\LogicaNegocio\bin\Debug\EntityFramework.xml
+C:\Progra VI\ProyectoFinalP6_Veterinaria\LogicaNegocio\bin\Debug\NLog.config
+C:\Progra VI\ProyectoFinalP6_Veterinaria\LogicaNegocio\bin\Debug\NLog.dll
+C:\Progra VI\ProyectoFinalP6_Veterinaria\LogicaNegocio\bin\Debug\NLog.xml

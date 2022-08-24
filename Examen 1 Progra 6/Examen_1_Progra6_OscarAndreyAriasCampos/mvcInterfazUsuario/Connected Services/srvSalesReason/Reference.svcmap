@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="0b2cd504-0858-4606-ab46-d4c41e5a659f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61801/srvSalesReason.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="srvSalesReason.xsd" MetadataType="Schema" ID="14e70362-9edb-4326-8eb0-eabd5565fef3" SourceId="1" SourceUrl="http://localhost:61801/srvSalesReason.svc?xsd=xsd2" />
+    <MetadataFile FileName="srvSalesReason1.xsd" MetadataType="Schema" ID="c3b08bed-d497-4730-8d5a-1825b6cadd70" SourceId="1" SourceUrl="http://localhost:61801/srvSalesReason.svc?xsd=xsd1" />
+    <MetadataFile FileName="srvSalesReason.wsdl" MetadataType="Wsdl" ID="3fdffe57-5d94-4cfe-9570-2c380b013877" SourceId="1" SourceUrl="http://localhost:61801/srvSalesReason.svc?wsdl" />
+    <MetadataFile FileName="srvSalesReason2.xsd" MetadataType="Schema" ID="34ce8372-2cfb-479f-94fd-f1a2c6742b35" SourceId="1" SourceUrl="http://localhost:61801/srvSalesReason.svc?xsd=xsd0" />
+    <MetadataFile FileName="srvSalesReason.disco" MetadataType="Disco" ID="bf1cd062-c3be-48f4-a323-cd7a2951de66" SourceId="1" SourceUrl="http://localhost:61801/srvSalesReason.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

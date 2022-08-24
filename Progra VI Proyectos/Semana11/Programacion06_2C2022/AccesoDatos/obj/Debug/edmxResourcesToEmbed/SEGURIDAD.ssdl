@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SEGModelo.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TUSR_PERFILES">
+    <Key>
+      <PropertyRef Name="TN_Perfil" />
+    </Key>
+    <Property Name="TN_Perfil" Type="int" Nullable="false" />
+    <Property Name="TC_NomPerfil" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TUSR_PERFILESXUSUARIO">
+    <Key>
+      <PropertyRef Name="TN_Perfil" />
+      <PropertyRef Name="TC_Usuario" />
+    </Key>
+    <Property Name="TN_Perfil" Type="int" Nullable="false" />
+    <Property Name="TC_Usuario" Type="varchar" MaxLength="40" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TUSR_USUARIOS">
+    <Key>
+      <PropertyRef Name="TC_Usuario" />
+    </Key>
+    <Property Name="TC_Usuario" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="TC_Contrasena" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_TUSR_PERFILESXUSUARIO_TUSR_PERFILES">
+    <End Role="TUSR_PERFILES" Type="Self.TUSR_PERFILES" Multiplicity="1" />
+    <End Role="TUSR_PERFILESXUSUARIO" Type="Self.TUSR_PERFILESXUSUARIO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TUSR_PERFILES">
+        <PropertyRef Name="TN_Perfil" />
+      </Principal>
+      <Dependent Role="TUSR_PERFILESXUSUARIO">
+        <PropertyRef Name="TN_Perfil" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TUSR_PERFILESXUSUARIO_TUSR_USUARIOS">
+    <End Role="TUSR_USUARIOS" Type="Self.TUSR_USUARIOS" Multiplicity="1" />
+    <End Role="TUSR_PERFILESXUSUARIO" Type="Self.TUSR_PERFILESXUSUARIO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TUSR_USUARIOS">
+        <PropertyRef Name="TC_Usuario" />
+      </Principal>
+      <Dependent Role="TUSR_PERFILESXUSUARIO">
+        <PropertyRef Name="TC_Usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="SEGModeloStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TUSR_PERFILES" EntityType="Self.TUSR_PERFILES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TUSR_PERFILESXUSUARIO" EntityType="Self.TUSR_PERFILESXUSUARIO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TUSR_USUARIOS" EntityType="Self.TUSR_USUARIOS" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_TUSR_PERFILESXUSUARIO_TUSR_PERFILES" Association="Self.FK_TUSR_PERFILESXUSUARIO_TUSR_PERFILES">
+      <End Role="TUSR_PERFILES" EntitySet="TUSR_PERFILES" />
+      <End Role="TUSR_PERFILESXUSUARIO" EntitySet="TUSR_PERFILESXUSUARIO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TUSR_PERFILESXUSUARIO_TUSR_USUARIOS" Association="Self.FK_TUSR_PERFILESXUSUARIO_TUSR_USUARIOS">
+      <End Role="TUSR_USUARIOS" EntitySet="TUSR_USUARIOS" />
+      <End Role="TUSR_PERFILESXUSUARIO" EntitySet="TUSR_PERFILESXUSUARIO" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

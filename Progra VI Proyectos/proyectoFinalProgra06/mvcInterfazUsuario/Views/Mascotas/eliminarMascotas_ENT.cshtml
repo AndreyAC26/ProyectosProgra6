@@ -1,0 +1,52 @@
+﻿@model mvcInterfazUsuario.Models.ModeloMascotas
+@{
+    ViewBag.Title = "eliminarMascotas_ENT";
+}
+
+<h2>Eliminar</h2>
+
+<h3>Estas seguro que quieres eliminar esta Mascota?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IDMascota)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDMascota)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IdCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdCliente)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm("accionesEntidades", "Mascotas", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        @Html.HiddenFor(model => model.IDMascota)
+        <div class="form-actions no-color">
+            <button type="submit" name="enviarAccion" value="Eliminar"
+                    class="btn btn-primary" title="Eliminar registro"
+                    data-toggle="tooltip" data-container="body" data-placement="right">
+                Eliminar
+            </button> |
+            @Html.ActionLink("Regresar", "listarMascotas_ENT")
+        </div>
+    }
+</div>

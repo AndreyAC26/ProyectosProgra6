@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Entidades.Diagnósticos>
+
+@{
+    ViewBag.Title = "listarDiagnosticos_ENT";
+}
+
+<h2>Diagnósticos</h2>
+
+<p>
+    @Html.ActionLink("Nuevo", "AgregarDiagnosticos_ENT")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IDDiagnostico)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DescripcionDiagnostico)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumeroCita)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDDiagnostico)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DescripcionDiagnostico)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumeroCita)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "ModificarDiagnosticos_ENT", new { pId = item.IDDiagnostico }) |
+            @Html.ActionLink("Detalles", "DetalleDiagnosticos_ENT", new { pId = item.IDDiagnostico }) |
+            @Html.ActionLink("Eliminar", "EliminarDiagnosticos_ENT", new { pId = item.IDDiagnostico })
+        </td>
+    </tr>
+}
+
+</table>

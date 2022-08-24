@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Entidades.Citas>
+
+@{
+    ViewBag.Title = "listarCitas_ENT";
+}
+
+<h2>listado de Citas</h2>
+
+<p>
+    @Html.ActionLink("Nuevo", "AgregarCitas_ENT")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NumeroCita)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IDCliente)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IDMascota)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaCita)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumeroCita)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDCliente)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDMascota)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaCita)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "ModificarCitas_ENT", new { pId =item.NumeroCita  }) |
+            @Html.ActionLink("Detalles", "DetalleCitas_ENT", new {  pId =item.NumeroCita }) |
+            @Html.ActionLink("Eliminar", "EliminarCitas_ENT", new {  pId =item.NumeroCita })
+        </td>
+    </tr>
+}
+
+</table>

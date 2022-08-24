@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoDatos", "AccesoDatos\AccesoDatos.csproj", "{BFA6F0EF-DE38-4C85-898D-D7AFD507C8FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{0D6F0CB3-0778-4E08-898C-493A78F63EF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicaNegocio", "LogicaNegocio\LogicaNegocio.csproj", "{019D2325-CE1F-4C73-9FA9-9C64F81B820B}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "wcfVeterinaria", "wcfVeterinaria\", "{4971A20E-0D75-4AB5-9B98-E5B4C16AD06B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		ProjectReferences = "{019d2325-ce1f-4c73-9fa9-9c64f81b820b}|LogicaNegocio.dll;{0d6f0cb3-0778-4e08-898c-493a78f63ef8}|Entidades.dll;{bfa6f0ef-de38-4c85-898d-d7afd507c8fc}|AccesoDatos.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50340"
+		Debug.AspNetCompiler.PhysicalPath = "wcfVeterinaria\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50340\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50340"
+		Release.AspNetCompiler.PhysicalPath = "wcfVeterinaria\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50340\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50340"
+		SlnRelativePath = "wcfVeterinaria\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webApi", "webApi\webApi.csproj", "{0B288FEA-7237-4B4F-B83C-5ED2E962C3DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFA6F0EF-DE38-4C85-898D-D7AFD507C8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA6F0EF-DE38-4C85-898D-D7AFD507C8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA6F0EF-DE38-4C85-898D-D7AFD507C8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA6F0EF-DE38-4C85-898D-D7AFD507C8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D6F0CB3-0778-4E08-898C-493A78F63EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6F0CB3-0778-4E08-898C-493A78F63EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6F0CB3-0778-4E08-898C-493A78F63EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6F0CB3-0778-4E08-898C-493A78F63EF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{019D2325-CE1F-4C73-9FA9-9C64F81B820B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{019D2325-CE1F-4C73-9FA9-9C64F81B820B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{019D2325-CE1F-4C73-9FA9-9C64F81B820B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{019D2325-CE1F-4C73-9FA9-9C64F81B820B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4971A20E-0D75-4AB5-9B98-E5B4C16AD06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4971A20E-0D75-4AB5-9B98-E5B4C16AD06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4971A20E-0D75-4AB5-9B98-E5B4C16AD06B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4971A20E-0D75-4AB5-9B98-E5B4C16AD06B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0B288FEA-7237-4B4F-B83C-5ED2E962C3DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B288FEA-7237-4B4F-B83C-5ED2E962C3DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B288FEA-7237-4B4F-B83C-5ED2E962C3DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B288FEA-7237-4B4F-B83C-5ED2E962C3DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DC95ECC-F6DE-4A9A-A815-A0039E6BB987}
+	EndGlobalSection
+EndGlobal

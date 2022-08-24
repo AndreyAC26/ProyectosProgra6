@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SEGModelo.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TUSR_PERFILES">
+    <Key>
+      <PropertyRef Name="TN_Perfil" />
+    </Key>
+    <Property Name="TN_Perfil" Type="int" Nullable="false" />
+    <Property Name="TC_NomPerfil" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TUSR_USUARIOS">
+    <Key>
+      <PropertyRef Name="TC_Usuario" />
+    </Key>
+    <Property Name="TC_Usuario" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="TC_Contrasena" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="YUSR_PERFILESXUSUARIO">
+    <Key>
+      <PropertyRef Name="TN_Perfil" />
+      <PropertyRef Name="TC_Usuario" />
+    </Key>
+    <Property Name="TN_Perfil" Type="int" Nullable="false" />
+    <Property Name="TC_Usuario" Type="varchar" MaxLength="40" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_YUSR_PERFILESXUSUARIO_TUSR_PERFILES">
+    <End Role="TUSR_PERFILES" Type="Self.TUSR_PERFILES" Multiplicity="1" />
+    <End Role="YUSR_PERFILESXUSUARIO" Type="Self.YUSR_PERFILESXUSUARIO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TUSR_PERFILES">
+        <PropertyRef Name="TN_Perfil" />
+      </Principal>
+      <Dependent Role="YUSR_PERFILESXUSUARIO">
+        <PropertyRef Name="TN_Perfil" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_YUSR_PERFILESXUSUARIO_TUSR_USUARIOS">
+    <End Role="TUSR_USUARIOS" Type="Self.TUSR_USUARIOS" Multiplicity="1" />
+    <End Role="YUSR_PERFILESXUSUARIO" Type="Self.YUSR_PERFILESXUSUARIO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TUSR_USUARIOS">
+        <PropertyRef Name="TC_Usuario" />
+      </Principal>
+      <Dependent Role="YUSR_PERFILESXUSUARIO">
+        <PropertyRef Name="TC_Usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SEGModeloStoreContainer">
+    <EntitySet Name="TUSR_PERFILES" EntityType="Self.TUSR_PERFILES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TUSR_USUARIOS" EntityType="Self.TUSR_USUARIOS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="YUSR_PERFILESXUSUARIO" EntityType="Self.YUSR_PERFILESXUSUARIO" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_YUSR_PERFILESXUSUARIO_TUSR_PERFILES" Association="Self.FK_YUSR_PERFILESXUSUARIO_TUSR_PERFILES">
+      <End Role="TUSR_PERFILES" EntitySet="TUSR_PERFILES" />
+      <End Role="YUSR_PERFILESXUSUARIO" EntitySet="YUSR_PERFILESXUSUARIO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_YUSR_PERFILESXUSUARIO_TUSR_USUARIOS" Association="Self.FK_YUSR_PERFILESXUSUARIO_TUSR_USUARIOS">
+      <End Role="TUSR_USUARIOS" EntitySet="TUSR_USUARIOS" />
+      <End Role="YUSR_PERFILESXUSUARIO" EntitySet="YUSR_PERFILESXUSUARIO" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

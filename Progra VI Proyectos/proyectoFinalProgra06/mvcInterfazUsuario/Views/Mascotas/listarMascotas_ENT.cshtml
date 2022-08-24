@@ -1,0 +1,45 @@
+﻿@model IEnumerable<mvcInterfazUsuario.Models.ModeloMascotas>
+
+@{
+    ViewBag.Title = "listarMascotas_ENT";
+}
+
+<h2>Lista de Mascotas</h2>
+
+<p>
+    @Html.ActionLink("Nuevo", "agregarMascotas_ENT")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IDMascota)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IdCliente)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDMascota)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdCliente)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "modificarMascotas_ENT", new { pId=item.IDMascota }) |
+            @Html.ActionLink("Detalle", "detalleMascotas_ENT", new { pId = item.IDMascota }) |
+            @Html.ActionLink("Borrar", "eliminarMascotas_ENT", new { pId = item.IDMascota })
+        </td>
+    </tr>
+}
+
+</table>

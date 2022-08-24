@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:62379/srvDiagnostico.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Entidades" />
+  <xs:element name="recDiagnósticos_ENT">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="recDiagnósticos_ENTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Entidades" minOccurs="0" name="recDiagnósticos_ENTResult" nillable="true" type="q1:ArrayOfDiagnósticos" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="recDiagnósticosXId_ENT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="recDiagnósticosXId_ENTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Entidades" minOccurs="0" name="recDiagnósticosXId_ENTResult" nillable="true" type="q2:Diagnósticos" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="insDiagnósticos_ENT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Entidades" minOccurs="0" name="pDiagnósticos" nillable="true" type="q3:Diagnósticos" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="insDiagnósticos_ENTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="insDiagnósticos_ENTResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="modDiagnósticos_ENT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Entidades" minOccurs="0" name="pDiagnósticos" nillable="true" type="q4:Diagnósticos" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="modDiagnósticos_ENTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="modDiagnósticos_ENTResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="delDiagnósticos_ENT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Entidades" minOccurs="0" name="pDiagnósticos" nillable="true" type="q5:Diagnósticos" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="delDiagnósticos_ENTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="delDiagnósticos_ENTResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

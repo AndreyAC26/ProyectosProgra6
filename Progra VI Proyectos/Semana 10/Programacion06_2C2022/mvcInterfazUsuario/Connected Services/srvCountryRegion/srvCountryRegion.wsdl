@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="srvCountryRegion" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:60421/srvCountryRegion.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:60421/srvCountryRegion.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:60421/srvCountryRegion.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Entidades" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IsrvCountryRegion_recCountryRegion_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:recCountryRegion_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCountryRegion_recCountryRegion_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:recCountryRegion_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCountryRegion_recCountryRegionXId_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:recCountryRegionXId_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCountryRegion_recCountryRegionXId_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:recCountryRegionXId_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCountryRegion_insCountryRegion_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:insCountryRegion_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCountryRegion_insCountryRegion_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:insCountryRegion_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCountryRegion_modCountryRegion_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:modCountryRegion_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCountryRegion_modCountryRegion_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:modCountryRegion_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCountryRegion_delCountryRegion_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:delCountryRegion_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCountryRegion_delCountryRegion_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:delCountryRegion_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCountryRegion_recCountryRegion_PA_InputMessage">
+    <wsdl:part name="parameters" element="tns:recCountryRegion_PA" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCountryRegion_recCountryRegion_PA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:recCountryRegion_PAResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCountryRegion_recCountryRegionXId_PA_InputMessage">
+    <wsdl:part name="parameters" element="tns:recCountryRegionXId_PA" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCountryRegion_recCountryRegionXId_PA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:recCountryRegionXId_PAResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCountryRegion_insCountryRegion_PA_InputMessage">
+    <wsdl:part name="parameters" element="tns:insCountryRegion_PA" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCountryRegion_insCountryRegion_PA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:insCountryRegion_PAResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCountryRegion_modCountryRegion_PA_InputMessage">
+    <wsdl:part name="parameters" element="tns:modCountryRegion_PA" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCountryRegion_modCountryRegion_PA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:modCountryRegion_PAResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCountryRegion_delCountryRegion_PA_InputMessage">
+    <wsdl:part name="parameters" element="tns:delCountryRegion_PA" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCountryRegion_delCountryRegion_PA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:delCountryRegion_PAResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IsrvCountryRegion">
+    <wsdl:operation name="recCountryRegion_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCountryRegion/recCountryRegion_ENT" message="tns:IsrvCountryRegion_recCountryRegion_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCountryRegion/recCountryRegion_ENTResponse" message="tns:IsrvCountryRegion_recCountryRegion_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="recCountryRegionXId_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCountryRegion/recCountryRegionXId_ENT" message="tns:IsrvCountryRegion_recCountryRegionXId_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCountryRegion/recCountryRegionXId_ENTResponse" message="tns:IsrvCountryRegion_recCountryRegionXId_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="insCountryRegion_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCountryRegion/insCountryRegion_ENT" message="tns:IsrvCountryRegion_insCountryRegion_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCountryRegion/insCountryRegion_ENTResponse" message="tns:IsrvCountryRegion_insCountryRegion_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="modCountryRegion_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCountryRegion/modCountryRegion_ENT" message="tns:IsrvCountryRegion_modCountryRegion_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCountryRegion/modCountryRegion_ENTResponse" message="tns:IsrvCountryRegion_modCountryRegion_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="delCountryRegion_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCountryRegion/delCountryRegion_ENT" message="tns:IsrvCountryRegion_delCountryRegion_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCountryRegion/delCountryRegion_ENTResponse" message="tns:IsrvCountryRegion_delCountryRegion_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="recCountryRegion_PA">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCountryRegion/recCountryRegion_PA" message="tns:IsrvCountryRegion_recCountryRegion_PA_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCountryRegion/recCountryRegion_PAResponse" message="tns:IsrvCountryRegion_recCountryRegion_PA_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="recCountryRegionXId_PA">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCountryRegion/recCountryRegionXId_PA" message="tns:IsrvCountryRegion_recCountryRegionXId_PA_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCountryRegion/recCountryRegionXId_PAResponse" message="tns:IsrvCountryRegion_recCountryRegionXId_PA_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="insCountryRegion_PA">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCountryRegion/insCountryRegion_PA" message="tns:IsrvCountryRegion_insCountryRegion_PA_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCountryRegion/insCountryRegion_PAResponse" message="tns:IsrvCountryRegion_insCountryRegion_PA_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="modCountryRegion_PA">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCountryRegion/modCountryRegion_PA" message="tns:IsrvCountryRegion_modCountryRegion_PA_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCountryRegion/modCountryRegion_PAResponse" message="tns:IsrvCountryRegion_modCountryRegion_PA_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="delCountryRegion_PA">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCountryRegion/delCountryRegion_PA" message="tns:IsrvCountryRegion_delCountryRegion_PA_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCountryRegion/delCountryRegion_PAResponse" message="tns:IsrvCountryRegion_delCountryRegion_PA_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IsrvCountryRegion" type="tns:IsrvCountryRegion">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="recCountryRegion_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvCountryRegion/recCountryRegion_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="recCountryRegionXId_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvCountryRegion/recCountryRegionXId_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insCountryRegion_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvCountryRegion/insCountryRegion_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="modCountryRegion_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvCountryRegion/modCountryRegion_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="delCountryRegion_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvCountryRegion/delCountryRegion_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="recCountryRegion_PA">
+      <soap:operation soapAction="http://tempuri.org/IsrvCountryRegion/recCountryRegion_PA" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="recCountryRegionXId_PA">
+      <soap:operation soapAction="http://tempuri.org/IsrvCountryRegion/recCountryRegionXId_PA" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insCountryRegion_PA">
+      <soap:operation soapAction="http://tempuri.org/IsrvCountryRegion/insCountryRegion_PA" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="modCountryRegion_PA">
+      <soap:operation soapAction="http://tempuri.org/IsrvCountryRegion/modCountryRegion_PA" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="delCountryRegion_PA">
+      <soap:operation soapAction="http://tempuri.org/IsrvCountryRegion/delCountryRegion_PA" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="srvCountryRegion">
+    <wsdl:port name="BasicHttpBinding_IsrvCountryRegion" binding="tns:BasicHttpBinding_IsrvCountryRegion">
+      <soap:address location="http://localhost:60421/srvCountryRegion.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

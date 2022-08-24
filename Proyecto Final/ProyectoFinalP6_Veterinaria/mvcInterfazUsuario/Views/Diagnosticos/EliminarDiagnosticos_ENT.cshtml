@@ -1,0 +1,48 @@
+﻿@model Entidades.Diagnósticos
+
+@{
+    ViewBag.Title = "EliminarDiagnosticos_ENT";
+}
+
+<h2>Eliminar Diagnostico</h2>
+
+<h3>Estas seguro(a) que desea eliminar el registro seleccionado?</h3>
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IDDiagnostico)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDDiagnostico)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DescripcionDiagnostico)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DescripcionDiagnostico)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroCita)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroCita)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Regresar", "listarDiagnosticos_ENT")
+        </div>
+    }
+</div>

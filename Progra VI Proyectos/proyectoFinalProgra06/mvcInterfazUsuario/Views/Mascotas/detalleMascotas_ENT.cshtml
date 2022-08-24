@@ -1,0 +1,41 @@
+﻿@model mvcInterfazUsuario.Models.ModeloMascotas
+
+@{
+    ViewBag.Title = "detalleMascotas_ENT";
+}
+
+<h2>Detalle Mascotas</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IDMascota)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDMascota)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IdCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdCliente)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "modificarMascota_ENT", new { pId = Model.IDMascota }) |
+    @Html.ActionLink("Regresar", "listarMascota_ENT")
+</p>

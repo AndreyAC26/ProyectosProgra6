@@ -1,0 +1,51 @@
+﻿@model IEnumerable<mvcInterfazUsuario.Models.modeloDepartment>
+
+@{
+    ViewBag.Title = "listarDepartment_ENT";
+}
+
+<h2>listarDepartment_ENT</h2>
+
+<p>
+    @Html.ActionLink("Nuevo", "agregarDepartment_ENT")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DepartmentID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GroupName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayNameFor(model => model.DepartmentID)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.GroupName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ModifiedDate)
+    </td>
+    <td>
+        @Html.ActionLink("Editar", "modificarDepartment_ENT", new { pId = item.DepartmentID }) |
+        @Html.ActionLink("Detalles", "detalleDepartment_ENt", new { pId = item.DepartmentID }) |
+        @Html.ActionLink("Borrar", "eliminarDepartment_ENT", new { pId = item.DepartmentID })
+    </td>
+</tr>
+}
+
+</table>

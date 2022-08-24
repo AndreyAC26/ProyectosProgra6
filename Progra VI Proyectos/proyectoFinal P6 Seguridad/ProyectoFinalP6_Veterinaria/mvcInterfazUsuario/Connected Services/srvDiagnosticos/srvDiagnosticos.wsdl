@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="srvDiagnosticos" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:61252/srvDiagnosticos.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:61252/srvDiagnosticos.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:61252/srvDiagnosticos.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Entidades" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IsrvDiagnosticos_recDiagnosticos_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:recDiagnosticos_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvDiagnosticos_recDiagnosticos_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:recDiagnosticos_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvDiagnosticos_recDiagnosticosXId_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:recDiagnosticosXId_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvDiagnosticos_recDiagnosticosXId_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:recDiagnosticosXId_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvDiagnosticos_insDiagnósticos_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:insDiagnósticos_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvDiagnosticos_insDiagnósticos_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:insDiagnósticos_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvDiagnosticos_modDiagnósticos_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:modDiagnósticos_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvDiagnosticos_modDiagnósticos_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:modDiagnósticos_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvDiagnosticos_delDiagnósticos_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:delDiagnósticos_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvDiagnosticos_delDiagnósticos_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:delDiagnósticos_ENTResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IsrvDiagnosticos">
+    <wsdl:operation name="recDiagnosticos_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvDiagnosticos/recDiagnosticos_ENT" message="tns:IsrvDiagnosticos_recDiagnosticos_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvDiagnosticos/recDiagnosticos_ENTResponse" message="tns:IsrvDiagnosticos_recDiagnosticos_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="recDiagnosticosXId_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvDiagnosticos/recDiagnosticosXId_ENT" message="tns:IsrvDiagnosticos_recDiagnosticosXId_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvDiagnosticos/recDiagnosticosXId_ENTResponse" message="tns:IsrvDiagnosticos_recDiagnosticosXId_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="insDiagnósticos_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvDiagnosticos/insDiagnósticos_ENT" message="tns:IsrvDiagnosticos_insDiagnósticos_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvDiagnosticos/insDiagnósticos_ENTResponse" message="tns:IsrvDiagnosticos_insDiagnósticos_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="modDiagnósticos_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvDiagnosticos/modDiagnósticos_ENT" message="tns:IsrvDiagnosticos_modDiagnósticos_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvDiagnosticos/modDiagnósticos_ENTResponse" message="tns:IsrvDiagnosticos_modDiagnósticos_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="delDiagnósticos_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvDiagnosticos/delDiagnósticos_ENT" message="tns:IsrvDiagnosticos_delDiagnósticos_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvDiagnosticos/delDiagnósticos_ENTResponse" message="tns:IsrvDiagnosticos_delDiagnósticos_ENT_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IsrvDiagnosticos" type="tns:IsrvDiagnosticos">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="recDiagnosticos_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvDiagnosticos/recDiagnosticos_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="recDiagnosticosXId_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvDiagnosticos/recDiagnosticosXId_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insDiagnósticos_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvDiagnosticos/insDiagnósticos_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="modDiagnósticos_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvDiagnosticos/modDiagnósticos_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="delDiagnósticos_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvDiagnosticos/delDiagnósticos_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="srvDiagnosticos">
+    <wsdl:port name="BasicHttpBinding_IsrvDiagnosticos" binding="tns:BasicHttpBinding_IsrvDiagnosticos">
+      <soap:address location="http://localhost:61252/srvDiagnosticos.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

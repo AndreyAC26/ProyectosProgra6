@@ -1,0 +1,183 @@
+﻿using AccesoDatos;
+using AccesoDatos.Implementacion;
+using AccesoDatos.Interfaces;
+using Entidades;
+using LogicaNegocio.Interfaces;
+using NLog;
+using System;
+using System.Collections.Generic;
+
+namespace LogicaNegocio.Implementacion
+{
+    public class CountryRegionLN : ICountryRegionLN
+    {
+        public static AWEntidades _objContextoAW = new AWEntidades();
+
+        private readonly ICountryRegionAD gobjCountryRegionAD = new CountryRegionAD(_objContextoAW);
+        private readonly Logger gObjError = LogManager.GetCurrentClassLogger();
+
+
+        //**************ENTIDADES**************//
+        public List<CountryRegion> recCountryRegion_ENT()
+        {
+            List<CountryRegion> lobjRespuesta = new List<CountryRegion>();
+            try
+            {
+                lobjRespuesta = gobjCountryRegionAD.recCountryRegion_ENT();
+            }
+            catch (Exception lEx)
+            {
+                // throw lEx;
+                gObjError.Error("Se produjo un error. Detalle: " + lEx.Message + " " + lEx.InnerException.Message +
+                     " . Ubicación: " + System.Reflection.MethodInfo.GetCurrentMethod().ToString());
+            }
+            return lobjRespuesta;
+        }
+
+        public CountryRegion recCountryRegionXId_ENT(string pId)
+        {
+            CountryRegion lobjRespuesta = new CountryRegion();
+            try
+            {
+                lobjRespuesta = gobjCountryRegionAD.recCountryRegionXId_ENT(pId);
+            }
+            catch (Exception lEx)
+            {
+                // throw lEx;
+                gObjError.Error("Se produjo un error. Detalle: " + lEx.Message + " " + lEx.InnerException.Message +
+                     " . Ubicación: " + System.Reflection.MethodInfo.GetCurrentMethod().ToString());
+            }
+            return lobjRespuesta;
+        }
+
+        public bool insCountryRegion_ENT(CountryRegion pCountryRegion)
+        {
+            bool lobjRespuesta = false;
+            try
+            {
+                lobjRespuesta = gobjCountryRegionAD.insCountryRegion_ENT(pCountryRegion);
+            }
+            catch (Exception lEx)
+            {
+                // throw lEx;
+                gObjError.Error("Se produjo un error. Detalle: " + lEx.Message + " " + lEx.InnerException.Message +
+                     " . Ubicación: " + System.Reflection.MethodInfo.GetCurrentMethod().ToString());
+            }
+            return lobjRespuesta;
+        }
+
+        public bool modCountryRegion_ENT(CountryRegion pCountryRegion)
+        {
+            bool lobjRespuesta = false;
+            try
+            {
+                lobjRespuesta = gobjCountryRegionAD.modCountryRegion_ENT(pCountryRegion);
+            }
+            catch (Exception lEx)
+            {
+                // throw lEx;
+                gObjError.Error("Se produjo un error. Detalle: " + lEx.Message + " " + lEx.InnerException.Message +
+                     " . Ubicación: " + System.Reflection.MethodInfo.GetCurrentMethod().ToString());
+            }
+            return lobjRespuesta;
+        }
+
+        public bool delCountryRegion_ENT(CountryRegion pCountryRegion)
+        {
+            bool lobjRespuesta = false;
+            try
+            {
+                lobjRespuesta = gobjCountryRegionAD.delCountryRegion_ENT(pCountryRegion);
+            }
+            catch (Exception lEx)
+            {
+                // throw lEx;
+                gObjError.Error("Se produjo un error. Detalle: " + lEx.Message + " " + lEx.InnerException.Message +
+                     " . Ubicación: " + System.Reflection.MethodInfo.GetCurrentMethod().ToString());
+            }
+            return lobjRespuesta;
+        }
+
+        //**************PROCEDIMIENTOS ALMACENADOS**************//
+        public List<recCountryRegions_Result> recCountryRegion_PA()
+        {
+            List<recCountryRegions_Result> lobjRespuesta = new List<recCountryRegions_Result>();
+            try
+            {
+                lobjRespuesta = gobjCountryRegionAD.recCountryRegion_PA();
+            }
+            catch (Exception lEx)
+            {
+                // throw lEx;
+                gObjError.Error("Se produjo un error. Detalle: " + lEx.Message + " " + lEx.InnerException.Message +
+                     " . Ubicación: " + System.Reflection.MethodInfo.GetCurrentMethod().ToString());
+            }
+            return lobjRespuesta;
+        }
+
+        public recCountryRegionsxId_Result recCountryRegionXId_PA(string pId)
+        {
+            recCountryRegionsxId_Result lobjRespuesta = new recCountryRegionsxId_Result();
+            try
+            {
+                lobjRespuesta = gobjCountryRegionAD.recCountryRegionXId_PA(pId);
+            }
+            catch (Exception lEx)
+            {
+                // throw lEx;
+                gObjError.Error("Se produjo un error. Detalle: " + lEx.Message + " " + lEx.InnerException.Message +
+                     " . Ubicación: " + System.Reflection.MethodInfo.GetCurrentMethod().ToString());
+            }
+            return lobjRespuesta;
+        }
+
+        public bool insCountryRegion_PA(CountryRegion pCountryRegion)
+        {
+            bool lobjRespuesta = false;
+            try
+            {
+                lobjRespuesta = gobjCountryRegionAD.insCountryRegion_PA(pCountryRegion);
+            }
+            catch (Exception lEx)
+            {
+                // throw lEx;
+                gObjError.Error("Se produjo un error. Detalle: " + lEx.Message + " " + lEx.InnerException.Message +
+                     " . Ubicación: " + System.Reflection.MethodInfo.GetCurrentMethod().ToString());
+            }
+            return lobjRespuesta;
+        }
+
+        public bool modCountryRegion_PA(CountryRegion pCountryRegion)
+        {
+            bool lobjRespuesta = false;
+            try
+            {
+                lobjRespuesta = gobjCountryRegionAD.modCountryRegion_PA(pCountryRegion);
+            }
+            catch (Exception lEx)
+            {
+                // throw lEx;
+                gObjError.Error("Se produjo un error. Detalle: " + lEx.Message + " " + lEx.InnerException.Message +
+                     " . Ubicación: " + System.Reflection.MethodInfo.GetCurrentMethod().ToString());
+            }
+            return lobjRespuesta;
+        }
+
+        public bool delCountryRegion_PA(CountryRegion pCountryRegion)
+        {
+            bool lobjRespuesta = false;
+            try
+            {
+                lobjRespuesta = gobjCountryRegionAD.delCountryRegion_PA(pCountryRegion);
+            }
+            catch (Exception lEx)
+            {
+                // throw lEx;
+                gObjError.Error("Se produjo un error. Detalle: " + lEx.Message + " " + lEx.InnerException.Message +
+                     " . Ubicación: " + System.Reflection.MethodInfo.GetCurrentMethod().ToString());
+            }
+            return lobjRespuesta;
+        }
+
+    }
+}

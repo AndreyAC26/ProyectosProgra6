@@ -1,0 +1,65 @@
+﻿@model mvcInterfazUsuario.Models.ModeloServicios
+
+@{
+    ViewBag.Title = "detalleServicios_ENT";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IDServicio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDServicio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IDCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDCliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreCliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreMascota)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreMascota)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroCita)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroCita)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "modificarServicios_ENT", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Regresar", "listarServicios_ENT")
+</p>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="860a13d2-91bc-4fa5-b23c-e84ea939d5d6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61252/srvDiagnosticos.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="srvDiagnosticos.xsd" MetadataType="Schema" ID="cb158c27-2850-4926-9cce-9a187a9f4546" SourceId="1" SourceUrl="http://localhost:61252/srvDiagnosticos.svc?xsd=xsd2" />
+    <MetadataFile FileName="srvDiagnosticos.disco" MetadataType="Disco" ID="0213b0ef-f7b1-410d-a648-b57a042a56f0" SourceId="1" SourceUrl="http://localhost:61252/srvDiagnosticos.svc?disco" />
+    <MetadataFile FileName="srvDiagnosticos.wsdl" MetadataType="Wsdl" ID="35e072d1-75ae-4d9c-b923-9b27e0cdcddc" SourceId="1" SourceUrl="http://localhost:61252/srvDiagnosticos.svc?wsdl" />
+    <MetadataFile FileName="srvDiagnosticos1.xsd" MetadataType="Schema" ID="a5e99f40-313f-4e3d-9fe1-62e1c5be1904" SourceId="1" SourceUrl="http://localhost:61252/srvDiagnosticos.svc?xsd=xsd1" />
+    <MetadataFile FileName="srvDiagnosticos2.xsd" MetadataType="Schema" ID="caa9ea77-9ed2-4070-86f6-fa1a3962f752" SourceId="1" SourceUrl="http://localhost:61252/srvDiagnosticos.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

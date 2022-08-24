@@ -1,0 +1,64 @@
+﻿@model mvcInterfazUsuario.Models.modeloCitas
+
+@{
+    ViewBag.Title = "eliminarCitas_ENT";
+}
+
+
+<h3>Estas seguro que quieres eliminar esta Cita?</h3>
+<div>
+    <h4>Citas</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroCita)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroCita)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IDCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDCliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IDMascota)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDMascota)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaCita)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaCita)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm("accionesEntidades", "Citas", FormMethod.Post))
+    {
+
+        @Html.AntiForgeryToken()
+
+
+        @Html.HiddenFor(model => model.NumeroCita)
+
+        <div class="form-actions no-color">
+            <button type="submit" name="enviarAccion" value="Eliminar"
+                    class="btn btn-primary" title="Eliminar registro"
+                    data-toggle="tooltip" data-container="body" data-placement="right">
+                Eliminar
+            </button> |
+            @Html.ActionLink("Regresar", "listarCitas_ENT")
+        </div>
+    }
+</div>

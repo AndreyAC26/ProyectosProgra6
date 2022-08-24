@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="0124a45b-4830-4d03-b076-9c0dd712a177" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61252/srvClientes.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="srvClientes.xsd" MetadataType="Schema" ID="215746c7-41c9-44e5-b237-ed22c33e6539" SourceId="1" SourceUrl="http://localhost:61252/srvClientes.svc?xsd=xsd1" />
+    <MetadataFile FileName="srvClientes1.xsd" MetadataType="Schema" ID="d6f52b7a-4764-4c0a-970b-737e87b0c5db" SourceId="1" SourceUrl="http://localhost:61252/srvClientes.svc?xsd=xsd2" />
+    <MetadataFile FileName="srvClientes2.xsd" MetadataType="Schema" ID="33e7f975-3787-4e09-b6fa-ddf1247f75d8" SourceId="1" SourceUrl="http://localhost:61252/srvClientes.svc?xsd=xsd0" />
+    <MetadataFile FileName="srvClientes.disco" MetadataType="Disco" ID="48046c61-2ac5-433a-a7ea-c4370f4aa963" SourceId="1" SourceUrl="http://localhost:61252/srvClientes.svc?disco" />
+    <MetadataFile FileName="srvClientes.wsdl" MetadataType="Wsdl" ID="377e1d26-5a6a-4fbe-a327-f30f2f5742c4" SourceId="1" SourceUrl="http://localhost:61252/srvClientes.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

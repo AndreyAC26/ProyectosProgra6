@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="b158971b-fc44-4ce5-b563-958e99d537ca" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61252/srvSeguridad.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="srvSeguridad.disco" MetadataType="Disco" ID="02ef58e7-9612-4c80-8d06-f79d442334fc" SourceId="1" SourceUrl="http://localhost:61252/srvSeguridad.svc?disco" />
+    <MetadataFile FileName="srvSeguridad.wsdl" MetadataType="Wsdl" ID="a2812353-7d56-4725-ab19-5fb242156927" SourceId="1" SourceUrl="http://localhost:61252/srvSeguridad.svc?wsdl" />
+    <MetadataFile FileName="srvSeguridad.xsd" MetadataType="Schema" ID="e7a2b1a2-f214-4238-8312-9a5533bcab81" SourceId="1" SourceUrl="http://localhost:61252/srvSeguridad.svc?xsd=xsd1" />
+    <MetadataFile FileName="srvSeguridad1.xsd" MetadataType="Schema" ID="9196a9c3-244f-464e-b2f6-bb17e56398ed" SourceId="1" SourceUrl="http://localhost:61252/srvSeguridad.svc?xsd=xsd0" />
+    <MetadataFile FileName="srvSeguridad2.xsd" MetadataType="Schema" ID="86780d65-c340-4e02-b5bc-36b8a8fbe877" SourceId="1" SourceUrl="http://localhost:61252/srvSeguridad.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

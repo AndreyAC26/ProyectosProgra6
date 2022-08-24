@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoDatos", "AccesoDatos\AccesoDatos.csproj", "{383BB3FF-42C5-4438-AD9D-4AE1EC813977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{6C363DD2-63C6-49D9-AF77-09CCBE3E05ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicaNegocio", "LogicaNegocio\LogicaNegocio.csproj", "{BDDC6350-6D3D-4EBC-B4BD-6CF6500FD16D}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "wcfExamen1Progra06", "wcfExamen1Progra06\", "{41D2EE21-D3FE-4BA7-8DEA-9158B08A63C2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		ProjectReferences = "{bddc6350-6d3d-4ebc-b4bd-6cf6500fd16d}|LogicaNegocio.dll;{6c363dd2-63c6-49d9-af77-09ccbe3e05ed}|Entidades.dll;{383BB3FF-42C5-4438-AD9D-4AE1EC813977}|AccesoDatos.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61801"
+		Debug.AspNetCompiler.PhysicalPath = "wcfExamen1Progra06\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61801\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61801"
+		Release.AspNetCompiler.PhysicalPath = "wcfExamen1Progra06\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61801\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61801"
+		SlnRelativePath = "wcfExamen1Progra06\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvcInterfazUsuario", "mvcInterfazUsuario\mvcInterfazUsuario.csproj", "{9B742FC1-67B6-4BFB-A3B3-DC6FEAEA4049}"
+	ProjectSection(ProjectDependencies) = postProject
+		{41D2EE21-D3FE-4BA7-8DEA-9158B08A63C2} = {41D2EE21-D3FE-4BA7-8DEA-9158B08A63C2}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{383BB3FF-42C5-4438-AD9D-4AE1EC813977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383BB3FF-42C5-4438-AD9D-4AE1EC813977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383BB3FF-42C5-4438-AD9D-4AE1EC813977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383BB3FF-42C5-4438-AD9D-4AE1EC813977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C363DD2-63C6-49D9-AF77-09CCBE3E05ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C363DD2-63C6-49D9-AF77-09CCBE3E05ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C363DD2-63C6-49D9-AF77-09CCBE3E05ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C363DD2-63C6-49D9-AF77-09CCBE3E05ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDC6350-6D3D-4EBC-B4BD-6CF6500FD16D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDC6350-6D3D-4EBC-B4BD-6CF6500FD16D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDC6350-6D3D-4EBC-B4BD-6CF6500FD16D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDC6350-6D3D-4EBC-B4BD-6CF6500FD16D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D2EE21-D3FE-4BA7-8DEA-9158B08A63C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D2EE21-D3FE-4BA7-8DEA-9158B08A63C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D2EE21-D3FE-4BA7-8DEA-9158B08A63C2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D2EE21-D3FE-4BA7-8DEA-9158B08A63C2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9B742FC1-67B6-4BFB-A3B3-DC6FEAEA4049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B742FC1-67B6-4BFB-A3B3-DC6FEAEA4049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B742FC1-67B6-4BFB-A3B3-DC6FEAEA4049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B742FC1-67B6-4BFB-A3B3-DC6FEAEA4049}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B70BE40-E877-4BD0-9028-B107407C2A1F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="71e724af-7a5d-4d47-b031-45a8dba4b76e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:60421/srvCountryRegion.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="srvCountryRegion.disco" MetadataType="Disco" ID="9ebe7298-b254-45f7-b1a9-89c79b39b337" SourceId="1" SourceUrl="http://localhost:60421/srvCountryRegion.svc?disco" />
+    <MetadataFile FileName="srvCountryRegion.xsd" MetadataType="Schema" ID="661a0420-31da-4b45-b260-21e78953bfd1" SourceId="1" SourceUrl="http://localhost:60421/srvCountryRegion.svc?xsd=xsd2" />
+    <MetadataFile FileName="srvCountryRegion1.xsd" MetadataType="Schema" ID="9a846ffc-1f57-4984-8f93-30a90e6d8130" SourceId="1" SourceUrl="http://localhost:60421/srvCountryRegion.svc?xsd=xsd0" />
+    <MetadataFile FileName="srvCountryRegion.wsdl" MetadataType="Wsdl" ID="b989aa65-1fce-471d-b010-adf1822c233e" SourceId="1" SourceUrl="http://localhost:60421/srvCountryRegion.svc?wsdl" />
+    <MetadataFile FileName="srvCountryRegion2.xsd" MetadataType="Schema" ID="066fdc6c-349f-4d42-a321-0768c9e1bbde" SourceId="1" SourceUrl="http://localhost:60421/srvCountryRegion.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

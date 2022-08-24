@@ -1,0 +1,42 @@
+﻿@model Entidades.Diagnósticos
+
+@{
+    ViewBag.Title = "DetalleDiagnosticos_ENT";
+}
+
+<h2>Detalles del Diagnostico</h2>
+
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IDDiagnostico)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDDiagnostico)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DescripcionDiagnostico)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DescripcionDiagnostico)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroCita)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroCita)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "ModificarDiagnosticos_ENT", new { pId = Model.IDDiagnostico  }) |
+    @Html.ActionLink("Regresar", "listarDiagnosticos_ENT")
+</p>

@@ -1,0 +1,47 @@
+﻿@model Entidades.CountryRegion
+
+@{
+    ViewBag.Title = "eliminarCountryRegions_ENT";
+}
+
+<h2>Eliminar Regiones</h2>
+
+<h3>Estas seguro de querer borrar esto?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CountryRegionCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CountryRegionCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifiedDate)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Atras", "listarCountryRegions_ENT")
+        </div>
+    }
+</div>

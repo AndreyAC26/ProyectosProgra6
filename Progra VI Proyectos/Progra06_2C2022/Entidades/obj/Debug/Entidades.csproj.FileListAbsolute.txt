@@ -1,0 +1,6 @@
+C:\Progra VI\Progra06_2C2022\Entidades\bin\Debug\Entidades.dll
+C:\Progra VI\Progra06_2C2022\Entidades\bin\Debug\Entidades.pdb
+C:\Progra VI\Progra06_2C2022\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Progra VI\Progra06_2C2022\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Progra VI\Progra06_2C2022\Entidades\obj\Debug\Entidades.dll
+C:\Progra VI\Progra06_2C2022\Entidades\obj\Debug\Entidades.pdb

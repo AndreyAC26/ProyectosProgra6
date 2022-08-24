@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Entidades.Clientes>
+
+@{
+    ViewBag.Title = "listarClientes_ENT";
+}
+
+<h2>listado de clientes</h2>
+
+<p>
+    @Html.ActionLink("Nuevo", "AgregarClientes_ENT")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IDCliente)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PrimerApellido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SegundoApellido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telefono)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CorreoElectronico)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDCliente)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PrimerApellido)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SegundoApellido)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Telefono)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CorreoElectronico)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "ModificarClientes_ENT", new { pId = item.IDCliente }) |
+            @Html.ActionLink("Detalles", "DetalleClientes_ENT", new { pId = item.IDCliente }) |
+            @Html.ActionLink("Eliminar", "EliminarClientes_ENT", new { pId = item.IDCliente })
+        </td>
+    </tr>
+}
+
+</table>

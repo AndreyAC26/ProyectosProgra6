@@ -1,0 +1,6 @@
+C:\Progra VI\ProyectoFinalP6_Veterinaria\Entidades\bin\Debug\Entidades.dll
+C:\Progra VI\ProyectoFinalP6_Veterinaria\Entidades\bin\Debug\Entidades.pdb
+C:\Progra VI\ProyectoFinalP6_Veterinaria\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Progra VI\ProyectoFinalP6_Veterinaria\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Progra VI\ProyectoFinalP6_Veterinaria\Entidades\obj\Debug\Entidades.dll
+C:\Progra VI\ProyectoFinalP6_Veterinaria\Entidades\obj\Debug\Entidades.pdb

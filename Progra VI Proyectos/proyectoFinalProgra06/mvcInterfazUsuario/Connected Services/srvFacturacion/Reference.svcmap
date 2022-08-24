@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="bdb5e644-e739-449c-8a4c-9f9b683bbbb5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:62379/srvFacturacion.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="srvFacturacion.wsdl" MetadataType="Wsdl" ID="a67a856b-4f97-4915-9681-a0e92f804c8b" SourceId="1" SourceUrl="http://localhost:62379/srvFacturacion.svc?wsdl" />
+    <MetadataFile FileName="srvFacturacion.disco" MetadataType="Disco" ID="5e9702ba-523c-4fc8-955e-2aad6d34ca66" SourceId="1" SourceUrl="http://localhost:62379/srvFacturacion.svc?disco" />
+    <MetadataFile FileName="srvFacturacion.xsd" MetadataType="Schema" ID="f65c5f3d-7ef8-426e-a428-15fa87ce180b" SourceId="1" SourceUrl="http://localhost:62379/srvFacturacion.svc?xsd=xsd0" />
+    <MetadataFile FileName="srvFacturacion1.xsd" MetadataType="Schema" ID="f48013d9-cae5-416a-991a-4786300efb48" SourceId="1" SourceUrl="http://localhost:62379/srvFacturacion.svc?xsd=xsd2" />
+    <MetadataFile FileName="srvFacturacion2.xsd" MetadataType="Schema" ID="4f98237f-fc70-4408-b8da-87b0264dd923" SourceId="1" SourceUrl="http://localhost:62379/srvFacturacion.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,62 @@
+﻿@model mvcInterfazUsuario.Models.modeloDepartment
+
+@{
+    ViewBag.Title = "eliminarDepartment_ENT";
+}
+
+<h2>eliminarDepartment_ENT</h2>
+
+<h3>Seguro que quieres eliminar esto?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DepartmentID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DepartmentID)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GroupName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GroupName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifiedDate)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm("accionesEntidades", "Department", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        @Html.HiddenFor(model => model.DepartmentID)
+
+
+        <div class="form-actions no-color">
+            <button type="submit" name="enviarAccion" value="Eliminar"
+                    class="btn btn-primary" title="Eliminar registro"
+                    data-toggle="tooltip" data-container="body" data-placement="right">
+                Eliminar
+            </button> |
+            @Html.ActionLink("Atras", "listarDepartment_ENT")
+        </div>
+    }
+</div>

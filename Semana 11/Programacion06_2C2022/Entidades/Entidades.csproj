@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9A961676-367B-431A-8F50-FCEA2E9043C3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Entidades</RootNamespace>
+    <AssemblyName>Entidades</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddressType.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AW.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AWBuildVersion.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BillOfMaterials.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessEntity.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessEntityAddress.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessEntityContact.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContactType.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CountryRegion.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CountryRegionCurrency.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CreditCard.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Culture.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Currency.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CurrencyRate.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="customerAccessPredicate_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerPII.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseLog.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DemoSalesOrderDetailSeed.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DemoSalesOrderHeaderSeed.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Department.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EmailAddress.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeDepartmentHistory.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeePayHistory.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Employee_Temporal.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Employee_Temporal_History.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorLog.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Illustration.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="JobCandidate.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Location.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderTracking.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Password.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PA_recCreditCardXId_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PA_recCreditCard_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PA_recUbicacionXId_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PA_recUbicacion_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PersonCreditCard.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PersonPhone.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person_json.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person_Temporal.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person_Temporal_History.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhoneNumberType.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductCategory.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductCostHistory.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductDescription.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductDocument.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductInventory.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductListPriceHistory.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductModel.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductModelIllustration.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductModelProductDescriptionCulture.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductPhoto.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProductPhoto.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductReview.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductSubcategory.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductVendor.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_inmem.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_ondisk.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseOrderDetail.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseOrderHeader.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="recCountryRegionsxId_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="recCountryRegions_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="recCultureXId_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="recCulture_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="recCurrencyxId_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="recCurrency_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="recDepartmentXId_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="recDepartment_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="recSalesReasonxId_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="recSalesReason_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="recUnitMeasurexId_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="recUnitMeasure_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesOrderDetail.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesOrderDetail_inmem.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesOrderDetail_ondisk.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesOrderHeader.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesOrderHeaderSalesReason.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesOrderHeader_inmem.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesOrderHeader_ondisk.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesOrder_json.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesPerson.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesPersonQuotaHistory.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReason.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesTaxRate.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesTerritory.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesTerritoryHistory.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ScrapReason.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SEGURIDAD.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SEGURIDAD.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Shift.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ShipMethod.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingCartItem.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpecialOffer.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpecialOfferProduct.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpecialOfferProduct_inmem.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpecialOfferProduct_ondisk.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpecialOffer_inmem.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpecialOffer_ondisk.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetEmployee_Person_Info_AsOf_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>SEGURIDAD.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>SEGURIDAD.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StateProvince.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Store.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>SEGURIDAD.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TrackingEvent.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionHistory.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionHistoryArchive.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TUSR_PERFILES.cs">
+      <DependentUpon>SEGURIDAD.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TUSR_USUARIOS.cs">
+      <DependentUpon>SEGURIDAD.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ufnGetContactInformation_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UnitMeasure.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="uspGetBillOfMaterials_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="uspGetEmployeeManagers_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="uspGetManagerEmployees_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="uspGetOrderTrackingBySalesOrderID_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="uspGetOrderTrackingByTrackingNumber_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="uspGetWhereUsedProductID_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vAdditionalContactInfo.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vEmployee.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vEmployeeDepartment.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vEmployeeDepartmentHistory.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vEmployeePersonTemporalInfo.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Vendor.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vIndividualCustomer.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vJobCandidate.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vJobCandidateEducation.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vJobCandidateEmployment.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vPersonDemographics.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vProductAndDescription.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vProductModelCatalogDescription.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vProductModelInstructions.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vSalesOrderDetail_extended_inmem_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vSalesOrderHeader_extended_inmem_Result.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vSalesPerson.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vSalesPersonSalesByFiscalYears.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vStateProvinceCountryRegion.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vStoreWithAddresses.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vStoreWithContacts.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vStoreWithDemographics.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vVendorWithAddresses.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vVendorWithContacts.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WorkOrder.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WorkOrderRouting.cs">
+      <DependentUpon>AW.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AW.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>AW.cs</LastGenOutput>
+    </Content>
+    <Content Include="SEGURIDAD.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>SEGURIDAD.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

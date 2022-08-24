@@ -1,0 +1,6 @@
+C:\Progra VI\Examen_1_Progra6_OscarAndreyAriasCampos\Entidades\bin\Debug\Entidades.dll
+C:\Progra VI\Examen_1_Progra6_OscarAndreyAriasCampos\Entidades\bin\Debug\Entidades.pdb
+C:\Progra VI\Examen_1_Progra6_OscarAndreyAriasCampos\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Progra VI\Examen_1_Progra6_OscarAndreyAriasCampos\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Progra VI\Examen_1_Progra6_OscarAndreyAriasCampos\Entidades\obj\Debug\Entidades.dll
+C:\Progra VI\Examen_1_Progra6_OscarAndreyAriasCampos\Entidades\obj\Debug\Entidades.pdb

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SEGModelo" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TUSR_PERFILES">
+    <Key>
+      <PropertyRef Name="TN_Perfil" />
+    </Key>
+    <Property Name="TN_Perfil" Type="Int32" Nullable="false" />
+    <Property Name="TC_NomPerfil" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="TUSR_USUARIOS" Relationship="Self.YUSR_PERFILESXUSUARIO" FromRole="TUSR_PERFILES" ToRole="TUSR_USUARIOS" />
+  </EntityType>
+  <EntityType Name="TUSR_USUARIOS">
+    <Key>
+      <PropertyRef Name="TC_Usuario" />
+    </Key>
+    <Property Name="TC_Usuario" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TC_Contrasena" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="TUSR_PERFILES" Relationship="Self.YUSR_PERFILESXUSUARIO" FromRole="TUSR_USUARIOS" ToRole="TUSR_PERFILES" />
+  </EntityType>
+  <Association Name="YUSR_PERFILESXUSUARIO">
+    <End Role="TUSR_PERFILES" Type="Self.TUSR_PERFILES" Multiplicity="*" />
+    <End Role="TUSR_USUARIOS" Type="Self.TUSR_USUARIOS" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="SEGEntidades" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TUSR_PERFILES" EntityType="Self.TUSR_PERFILES" />
+    <EntitySet Name="TUSR_USUARIOS" EntityType="Self.TUSR_USUARIOS" />
+    <AssociationSet Name="YUSR_PERFILESXUSUARIO" Association="Self.YUSR_PERFILESXUSUARIO">
+      <End Role="TUSR_PERFILES" EntitySet="TUSR_PERFILES" />
+      <End Role="TUSR_USUARIOS" EntitySet="TUSR_USUARIOS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

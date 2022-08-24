@@ -1,0 +1,56 @@
+﻿@model mvcInterfazUsuario.Models.modeloCountryRegion
+
+@{
+    ViewBag.Title = "eliminarCountryRegions_ENT";
+}
+
+<h2>Eliminar Región</h2>
+
+<h3>Esta seguro(a) que desea eliminar el registro seleccionado?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CountryRegionCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CountryRegionCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifiedDate)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm("accionesEntidades", "CountryRegion", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        @Html.HiddenFor(model => model.CountryRegionCode)
+        @*@Html.HiddenFor(model => model.Name)
+        @Html.HiddenFor(model => model.ModifiedDate)*@
+
+        <div class="form-actions no-color">
+            <button type="submit" name="enviarAccion" value="Eliminar"
+                    class="btn btn-primary" title="Eliminar registro"
+                    data-toggle="tooltip" data-container="body" data-placement="right">
+                Eliminar
+            </button> |
+            @Html.ActionLink("Regresar", "listarCountryRegions_ENT")
+        </div>
+    }
+</div>

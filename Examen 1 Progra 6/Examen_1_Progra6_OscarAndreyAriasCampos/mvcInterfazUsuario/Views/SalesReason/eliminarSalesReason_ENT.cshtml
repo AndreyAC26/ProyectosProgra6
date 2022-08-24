@@ -1,0 +1,55 @@
+﻿@model Entidades.SalesReason
+
+@{
+    ViewBag.Title = "eliminarSalesReason_ENT";
+}
+
+<h2>Eliminar Motivos de Venta</h2>
+
+<h3>Esta seguro(a) que desea eliminar el registro seleccionado?</h3>
+<div>
+    <h4>SalesReason</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SalesReasonID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalesReasonID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifiedDate)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm("accionesEntidades", "SalesReason", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        @Html.HiddenFor(model => model.SalesReasonID)
+
+        <div class="form-actions no-color">
+            <<button type="submit" name="enviarAccion" value="Eliminar"
+                     class="btn btn-primary" title="Eliminar registro"
+                     data-toggle="tooltip" data-container="body" data-placement="right">
+                Eliminar
+            </button> |
+            @Html.ActionLink("Atras", "listarSalesReason_ENT")
+        </div>
+    }
+</div>

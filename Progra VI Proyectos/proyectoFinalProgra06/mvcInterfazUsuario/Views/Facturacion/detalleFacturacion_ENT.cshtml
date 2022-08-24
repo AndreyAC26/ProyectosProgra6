@@ -1,0 +1,73 @@
+﻿@model mvcInterfazUsuario.Models.ModeloFacturacion
+
+@{
+    ViewBag.Title = "detalleFacturacion_ENT";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroFactura)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroFactura)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroCita)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroCita)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreCliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreMascota)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreMascota)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaCita)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaCita)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IdServicio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdServicio)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "modificarFacturacion_ENT", new { pId = Model.NumeroFactura }) |
+    @Html.ActionLink("Regresar", "listarFacturacion_ENT")
+</p>

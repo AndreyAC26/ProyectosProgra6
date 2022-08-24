@@ -1,0 +1,88 @@
+﻿@model mvcInterfazUsuario.Models.ModeloFacturacion
+
+@{
+    ViewBag.Title = "eliminarFacturacion_ENT";
+}
+
+<h2>Eliminar</h2>
+
+<h3>Estas seguro de querer eliminar esta factura?</h3>
+<div>
+    <h4>Facturacion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroFactura)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroFactura)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroCita)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroCita)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreCliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreMascota)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreMascota)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaCita)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaCita)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IdServicio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdServicio)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm("accionesEntidades", "Facturacion", FormMethod.Post))
+    {
+
+        @Html.AntiForgeryToken()
+
+        @Html.HiddenFor(model => model.NumeroFactura)
+
+        <div class="form-actions no-color">
+            <button type="submit" name="enviarAccion" value="Eliminar"
+                    class="btn btn-primary" title="Eliminar registro"
+                    data-toggle="tooltip" data-container="body" data-placement="right">
+                Eliminar
+            </button> |
+            @Html.ActionLink("Regresar", "listarFacturacion_ENT")
+        </div>
+    }
+</div>

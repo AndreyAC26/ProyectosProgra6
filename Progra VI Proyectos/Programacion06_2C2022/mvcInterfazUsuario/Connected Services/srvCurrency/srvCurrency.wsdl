@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="srvCurrency" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:60421/srvCurrency.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:60421/srvCurrency.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:60421/srvCurrency.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Entidades" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IsrvCurrency_recCurrency_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:recCurrency_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCurrency_recCurrency_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:recCurrency_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCurrency_recCurrencyXId_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:recCurrencyXId_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCurrency_recCurrencyXId_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:recCurrencyXId_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCurrency_insCurrency_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:insCurrency_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCurrency_insCurrency_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:insCurrency_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCurrency_modCurrency_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:modCurrency_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCurrency_modCurrency_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:modCurrency_ENTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCurrency_delCurrency_ENT_InputMessage">
+    <wsdl:part name="parameters" element="tns:delCurrency_ENT" />
+  </wsdl:message>
+  <wsdl:message name="IsrvCurrency_delCurrency_ENT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:delCurrency_ENTResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IsrvCurrency">
+    <wsdl:operation name="recCurrency_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCurrency/recCurrency_ENT" message="tns:IsrvCurrency_recCurrency_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCurrency/recCurrency_ENTResponse" message="tns:IsrvCurrency_recCurrency_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="recCurrencyXId_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCurrency/recCurrencyXId_ENT" message="tns:IsrvCurrency_recCurrencyXId_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCurrency/recCurrencyXId_ENTResponse" message="tns:IsrvCurrency_recCurrencyXId_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="insCurrency_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCurrency/insCurrency_ENT" message="tns:IsrvCurrency_insCurrency_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCurrency/insCurrency_ENTResponse" message="tns:IsrvCurrency_insCurrency_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="modCurrency_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCurrency/modCurrency_ENT" message="tns:IsrvCurrency_modCurrency_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCurrency/modCurrency_ENTResponse" message="tns:IsrvCurrency_modCurrency_ENT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="delCurrency_ENT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvCurrency/delCurrency_ENT" message="tns:IsrvCurrency_delCurrency_ENT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvCurrency/delCurrency_ENTResponse" message="tns:IsrvCurrency_delCurrency_ENT_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IsrvCurrency" type="tns:IsrvCurrency">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="recCurrency_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvCurrency/recCurrency_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="recCurrencyXId_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvCurrency/recCurrencyXId_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insCurrency_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvCurrency/insCurrency_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="modCurrency_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvCurrency/modCurrency_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="delCurrency_ENT">
+      <soap:operation soapAction="http://tempuri.org/IsrvCurrency/delCurrency_ENT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="srvCurrency">
+    <wsdl:port name="BasicHttpBinding_IsrvCurrency" binding="tns:BasicHttpBinding_IsrvCurrency">
+      <soap:address location="http://localhost:60421/srvCurrency.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

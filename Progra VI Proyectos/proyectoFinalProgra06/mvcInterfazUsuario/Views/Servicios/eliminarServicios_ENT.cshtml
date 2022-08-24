@@ -1,0 +1,78 @@
+﻿@model mvcInterfazUsuario.Models.ModeloServicios
+
+@{
+    ViewBag.Title = "eliminarServicios_ENT";
+}
+
+<h2>Eliminar</h2>
+
+<h3>Estas seguro que quieres eliminar este Servicio?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IDServicio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDServicio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IDCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDCliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreCliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreMascota)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreMascota)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroCita)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroCita)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm("accionesEntidades", "Clientes", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        @Html.HiddenFor(model => model.IDServicio)
+
+        <div class="form-actions no-color">
+            <button type="submit" name="enviarAccion" value="Eliminar"
+                    class="btn btn-primary" title="Eliminar registro"
+                    data-toggle="tooltip" data-container="body" data-placement="right">
+                Eliminar
+            </button> |
+            @Html.ActionLink("regresar", "listarServicios_ENT")
+        </div>
+    }
+</div>

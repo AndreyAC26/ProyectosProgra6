@@ -1,0 +1,34 @@
+C:\Progra VI\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\AccesoDatos.dll
+C:\Progra VI\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\AccesoDatos.pdb
+C:\Progra VI\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\Entidades.dll
+C:\Progra VI\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\Entidades.pdb
+C:\Progra VI\ProyectoFinalP6_Veterinaria\AccesoDatos\obj\Debug\AccesoDatos.csproj.AssemblyReference.cache
+C:\Progra VI\ProyectoFinalP6_Veterinaria\AccesoDatos\obj\Debug\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Progra VI\ProyectoFinalP6_Veterinaria\AccesoDatos\obj\Debug\AccesoDatos.csproj.CopyComplete
+C:\Progra VI\ProyectoFinalP6_Veterinaria\AccesoDatos\obj\Debug\AccesoDatos.dll
+C:\Progra VI\ProyectoFinalP6_Veterinaria\AccesoDatos\obj\Debug\AccesoDatos.pdb
+C:\Progra VI\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\AccesoDatos.dll.config
+C:\Progra VI\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\EntityFramework.dll
+C:\Progra VI\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Progra VI\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\EntityFramework.xml
+C:\Progra VI\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Progra VI\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\NLog.config
+C:\Progra VI\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\NLog.dll
+C:\Progra VI\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\NLog.xml
+C:\Progra VI\proyectoFinal P6 Seguridad\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\NLog.config
+C:\Progra VI\proyectoFinal P6 Seguridad\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\AccesoDatos.dll.config
+C:\Progra VI\proyectoFinal P6 Seguridad\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\AccesoDatos.dll
+C:\Progra VI\proyectoFinal P6 Seguridad\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\AccesoDatos.pdb
+C:\Progra VI\proyectoFinal P6 Seguridad\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\Entidades.dll
+C:\Progra VI\proyectoFinal P6 Seguridad\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\EntityFramework.dll
+C:\Progra VI\proyectoFinal P6 Seguridad\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Progra VI\proyectoFinal P6 Seguridad\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\NLog.dll
+C:\Progra VI\proyectoFinal P6 Seguridad\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\Entidades.pdb
+C:\Progra VI\proyectoFinal P6 Seguridad\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\EntityFramework.xml
+C:\Progra VI\proyectoFinal P6 Seguridad\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Progra VI\proyectoFinal P6 Seguridad\ProyectoFinalP6_Veterinaria\AccesoDatos\bin\Debug\NLog.xml
+C:\Progra VI\proyectoFinal P6 Seguridad\ProyectoFinalP6_Veterinaria\AccesoDatos\obj\Debug\AccesoDatos.csproj.AssemblyReference.cache
+C:\Progra VI\proyectoFinal P6 Seguridad\ProyectoFinalP6_Veterinaria\AccesoDatos\obj\Debug\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Progra VI\proyectoFinal P6 Seguridad\ProyectoFinalP6_Veterinaria\AccesoDatos\obj\Debug\AccesoDatos.csproj.CopyComplete
+C:\Progra VI\proyectoFinal P6 Seguridad\ProyectoFinalP6_Veterinaria\AccesoDatos\obj\Debug\AccesoDatos.dll
+C:\Progra VI\proyectoFinal P6 Seguridad\ProyectoFinalP6_Veterinaria\AccesoDatos\obj\Debug\AccesoDatos.pdb

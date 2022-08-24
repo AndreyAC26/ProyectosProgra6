@@ -1,0 +1,56 @@
+S:\UTC\Programación VI\S02\Programacion06_2C2022\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+S:\UTC\Programación VI\S02\Programacion06_2C2022\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+S:\UTC\Programación VI\S02\Programacion06_2C2022\LogicaNegocio\bin\Debug\AccesoDatos.dll
+S:\UTC\Programación VI\S02\Programacion06_2C2022\LogicaNegocio\bin\Debug\Entidades.dll
+S:\UTC\Programación VI\S02\Programacion06_2C2022\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+S:\UTC\Programación VI\S02\Programacion06_2C2022\LogicaNegocio\bin\Debug\Entidades.pdb
+S:\UTC\Programación VI\S02\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.AssemblyReference.cache
+S:\UTC\Programación VI\S02\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
+S:\UTC\Programación VI\S02\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CopyComplete
+S:\UTC\Programación VI\S02\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+S:\UTC\Programación VI\S02\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+S:\UTC\Programación VI\S04\Programacion06_2C2022\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+S:\UTC\Programación VI\S04\Programacion06_2C2022\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+S:\UTC\Programación VI\S04\Programacion06_2C2022\LogicaNegocio\bin\Debug\AccesoDatos.dll
+S:\UTC\Programación VI\S04\Programacion06_2C2022\LogicaNegocio\bin\Debug\Entidades.dll
+S:\UTC\Programación VI\S04\Programacion06_2C2022\LogicaNegocio\bin\Debug\EntityFramework.dll
+S:\UTC\Programación VI\S04\Programacion06_2C2022\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+S:\UTC\Programación VI\S04\Programacion06_2C2022\LogicaNegocio\bin\Debug\AccesoDatos.dll.config
+S:\UTC\Programación VI\S04\Programacion06_2C2022\LogicaNegocio\bin\Debug\Entidades.pdb
+S:\UTC\Programación VI\S04\Programacion06_2C2022\LogicaNegocio\bin\Debug\EntityFramework.xml
+S:\UTC\Programación VI\S04\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.AssemblyReference.cache
+S:\UTC\Programación VI\S04\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
+S:\UTC\Programación VI\S04\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CopyComplete
+S:\UTC\Programación VI\S04\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+S:\UTC\Programación VI\S04\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+S:\UTC\Programación VI\S06\Programacion06_2C2022\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+S:\UTC\Programación VI\S06\Programacion06_2C2022\LogicaNegocio\bin\Debug\AccesoDatos.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\LogicaNegocio\bin\Debug\Entidades.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\LogicaNegocio\bin\Debug\EntityFramework.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+S:\UTC\Programación VI\S06\Programacion06_2C2022\LogicaNegocio\bin\Debug\AccesoDatos.dll.config
+S:\UTC\Programación VI\S06\Programacion06_2C2022\LogicaNegocio\bin\Debug\Entidades.pdb
+S:\UTC\Programación VI\S06\Programacion06_2C2022\LogicaNegocio\bin\Debug\EntityFramework.xml
+S:\UTC\Programación VI\S06\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.AssemblyReference.cache
+S:\UTC\Programación VI\S06\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
+S:\UTC\Programación VI\S06\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CopyComplete
+S:\UTC\Programación VI\S06\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+S:\UTC\Programación VI\S06\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+C:\Progra VI\semana 06\Programacion06_2C2022\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+C:\Progra VI\semana 06\Programacion06_2C2022\LogicaNegocio\bin\Debug\AccesoDatos.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\LogicaNegocio\bin\Debug\Entidades.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\LogicaNegocio\bin\Debug\EntityFramework.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+C:\Progra VI\semana 06\Programacion06_2C2022\LogicaNegocio\bin\Debug\AccesoDatos.dll.config
+C:\Progra VI\semana 06\Programacion06_2C2022\LogicaNegocio\bin\Debug\Entidades.pdb
+C:\Progra VI\semana 06\Programacion06_2C2022\LogicaNegocio\bin\Debug\EntityFramework.xml
+C:\Progra VI\semana 06\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Progra VI\semana 06\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Progra VI\semana 06\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CopyComplete
+C:\Progra VI\semana 06\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+C:\Progra VI\semana 06\Programacion06_2C2022\LogicaNegocio\bin\Debug\NLog.config
+C:\Progra VI\semana 06\Programacion06_2C2022\LogicaNegocio\bin\Debug\NLog.dll
+C:\Progra VI\semana 06\Programacion06_2C2022\LogicaNegocio\bin\Debug\NLog.xml

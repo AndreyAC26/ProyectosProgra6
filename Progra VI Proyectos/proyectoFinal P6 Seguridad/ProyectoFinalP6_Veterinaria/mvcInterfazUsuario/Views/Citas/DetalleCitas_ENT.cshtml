@@ -1,0 +1,50 @@
+﻿@model mvcInterfazUsuario.Models.modeloCitas
+
+@{
+    ViewBag.Title = "DetalleCitas_ENT";
+}
+
+<h2>Detalles Cita</h2>
+
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroCita)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroCita)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IDCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDCliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IDMascota)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDMascota)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaCita)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaCita)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "ModificarCitas_ENT", new { pId = Model.NumeroCita }) |
+    @Html.ActionLink("Regresar", "listarCitas_ENT")
+</p>

@@ -1,0 +1,63 @@
+﻿@model IEnumerable<mvcInterfazUsuario.Models.ModeloServicios>
+
+@{
+    ViewBag.Title = "listarServicios_ENT";
+}
+
+<h2>Lista de Servicios</h2>
+
+<p>
+    @Html.ActionLink("Nuevo", "agregarServicios_ENT")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IDServicio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IDCliente)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NombreCliente)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NombreMascota)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumeroCita)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDServicio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDCliente)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NombreCliente)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NombreMascota)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descripcion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumeroCita)
+        </td>
+        <td>
+            @Html.ActionLink("Edita", "modificarServicios_ENT", new { pId=item.IDServicio }) |
+            @Html.ActionLink("Detalles", "detalleServicios_ENT", new { pId = item.IDServicio }) |
+            @Html.ActionLink("Borrar", "eliminarServicios_ENT", new { pId = item.IDServicio })
+        </td>
+    </tr>
+}
+
+</table>

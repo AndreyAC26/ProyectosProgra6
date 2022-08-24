@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="c4bd8382-89fc-4d04-bf42-f322d4f50257" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:62379/srvCitas.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="srvCitas.xsd" MetadataType="Schema" ID="c9b06068-40a0-418d-bd54-f9fc6a0e37c4" SourceId="1" SourceUrl="http://localhost:62379/srvCitas.svc?xsd=xsd1" />
+    <MetadataFile FileName="srvCitas1.xsd" MetadataType="Schema" ID="4159ed10-20d3-48e5-91bc-0b16bcee3980" SourceId="1" SourceUrl="http://localhost:62379/srvCitas.svc?xsd=xsd2" />
+    <MetadataFile FileName="srvCitas.disco" MetadataType="Disco" ID="8127014a-34ad-43ae-ae54-d998fa787eb1" SourceId="1" SourceUrl="http://localhost:62379/srvCitas.svc?disco" />
+    <MetadataFile FileName="srvCitas2.xsd" MetadataType="Schema" ID="b633c1e3-b331-43a9-a6ff-0d2bb251a4f6" SourceId="1" SourceUrl="http://localhost:62379/srvCitas.svc?xsd=xsd0" />
+    <MetadataFile FileName="srvCitas.wsdl" MetadataType="Wsdl" ID="0d00379c-814b-4051-a07e-af48b8ae4b8b" SourceId="1" SourceUrl="http://localhost:62379/srvCitas.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

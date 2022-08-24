@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Entidades.CountryRegion>
+@{
+    ViewBag.Title = "listarCountryRegions_ENT";
+}
+
+<h2>Listado de Regiones</h2>
+
+<p>
+    @Html.ActionLink("Nuevo", "insertarCountryRegions_ENT")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CountryRegionCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CountryRegionCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ModifiedDate)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "modificarCountryRegions_ENT", new {  pId=item.CountryRegionCode }) |
+            @Html.ActionLink("Detalles", "detalleCountryRegions_ENT", new {  pId=item.CountryRegionCode }) |
+            @Html.ActionLink("Eliminar", "eliminarCountryRegions_ENT", new { pId=item.CountryRegionCode })
+        </td>
+    </tr>
+}
+
+</table>
